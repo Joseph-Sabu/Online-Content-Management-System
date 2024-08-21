@@ -1,0 +1,12 @@
+<%- include('layouts/header', { session: session }); -%>
+<%- include('layouts/navigation', { session: session }); -%>
+
+<article>
+    <h1><%= post.title %></h1>
+    <img src="<%= post.image %>" alt="<%= post.title %>">
+    <div class="post-content">
+        <%- post.content %>
+    </div>
+</article>
+
+<%- include('layouts/footer'); -%>

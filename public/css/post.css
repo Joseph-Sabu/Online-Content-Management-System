@@ -1,0 +1,27 @@
+
+
+article {
+    margin: 20px auto;
+    padding: 10px; 
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+img.post-image {
+    max-width: 600px;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
